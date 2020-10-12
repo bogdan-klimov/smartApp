@@ -1,0 +1,756 @@
+* {
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    padding: 30px 0 30px; 
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav, .net-work li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li a {
+    font-size: 14px;
+    color: #000000;
+    font-family: "Raleway", sans-serif;
+   
+}
+
+.navigation li a:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.net-work {
+    display: flex;
+}
+
+.net-work li {
+    padding: 0 6px;
+}
+
+.net-work li a {
+    font-size: 18px;
+    color: #3c3d42;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+.net-work li:nth-child(2) a {
+    font-size: 18px;
+    color: #3c3d42;
+    font-family: "Proxima Nova", sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    color: #3c3d42;
+    font-family: "Proxima Nova", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 20px;
+} 
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.header-main  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    padding: 0 20px 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+.net-work {
+    padding: 0;
+}
+
+.download-section {
+    padding: 230px 0 230px;
+    background: url(../images/bg.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.download-section h2 {
+    font-size: 36px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.under-head span {
+    font-size: 36px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.download-description {
+    max-width: 485px;
+    padding: 40px 0 40px;
+}
+
+.download-description {
+    font-size: 14px;
+    line-height: 24px;
+    color: #9dc7d1;
+    font-family: "Raleway", sans-serif;
+}
+
+.btn {
+    border: 3px solid #98b5b6;
+    padding: 10px 20px;
+    max-width: 200px;
+    letter-spacing: 0px;
+    line-height: 34px;
+    color: #ffffff;
+    font-family: "Gotham", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.download-section img {
+    position: absolute;
+    bottom: 0;
+    left: calc( 50% - 400px );
+    z-index: -1;
+}
+
+.hend {
+    max-width: 100%;
+}
+
+.product-feature-description h2 {
+    font-size: 36px;
+    color: #5dca88;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.people-list {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    transition: .5s;
+}
+
+.people-list-item {
+    min-width: 610px;
+}
+
+.product-feature-description {
+    max-width: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+hr {
+    width: 104px;
+    height: 2px;
+    background-color: #949c9c;
+    margin: 20px 0 40px;
+}
+
+.product-feature-description span, .product-geature-description span {
+    font-size: 36px;
+    color: #8c9494;
+    font-family: "Raleway", sans-serif;
+}
+
+.product-feature-description p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #8c9494;
+    font-family: "Raleway", sans-serif;
+}
+
+.product-feature-description a {
+    font-size: 21px;
+    color: #636c6c;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.product-feature .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery {
+    padding: 100px 0;
+}
+
+.visible-window, .visible-window-new {
+    overflow: hidden;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.visible-window {
+    height: 690px;
+}
+
+.visible-window-new {
+    height: 319px;
+}
+
+.phones-gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px; 
+    position: absolute;
+    left: 0;
+    transition: .5s;
+}
+
+.block-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin: 1200px;
+}
+
+.phones-gallery li p {
+    max-width: 240px;  
+    font-size: 14px;
+    line-height: 24px;
+    color: #8c9494;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.phones-gallery li {
+    padding: 0 30px;
+}
+
+.phones-gallery li img {
+    width: 100%;
+}
+
+.gallery h2 {
+    font-size: 36px;
+    color: #636c6c;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.gallery span {
+    font-size: 16px;
+    line-height: 24px;
+    color: #afb8b8;
+    font-family: "Raleway", sans-serif;
+}
+
+.description-gallery {
+    max-width: 770px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.product-feature {
+    padding: 80px 0;
+    background-color: #f2f9fe;
+}
+
+.product-geature-description {
+    max-width: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.product-geature-description h2,
+.product-feature-description h2 {
+    font-size: 36px;
+    color: #5dca88;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.product-geature-description p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #8c9494;
+    font-family: "Raleway", sans-serif;
+}
+
+.product-geature-description a {
+    margin-top: 30px;
+    font-size: 21px;
+    color: #636c6c;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+.product-geature .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-geature {
+    padding: 80px 0;
+    background-color: #f2f9fe;
+}
+
+.testimonials {
+    padding: 100px 0;
+}
+
+.testimonials .container {
+    max-width: 670px;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    color: #636c6c;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-align: center;    
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(../images/user.png);
+    margin: 40px auto 0;
+}
+
+.testimonials span {
+    font-size: 24px;
+    line-height: 24px;
+    color: #8c9494;
+    font-family: "Droid Serif", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+}
+.testimonials span:nth-child(4) {
+    font-size: 24px;
+    line-height: 24px;
+    color: #5dca88;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+.newsletter {
+    padding: 100px 0;
+    background-color: #f3f5f5;
+}
+
+.newsletter h2 {
+    font-size: 36px;
+    color: #8c9494;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.form-description {
+    display: flex;
+    max-width: 490px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.icon {
+    object-fit: contain;
+}
+
+.your-email {
+    border: 2px solid #8c9494;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.your-email input {
+    padding: 15px 30px;
+    outline: none;
+    width: 100%;
+}
+
+.email {
+    border: none;
+    background: none;
+}
+
+.email, .email::placeholder {
+    font-size: 14px;
+    line-height: 24px;
+    color: #8c9494;
+    font-family: "Raleway", sans-serif;
+}
+
+.form-btn {
+    border-radius: 25px;
+    background-color: #5dca88;
+    border: none;
+    max-width: 150px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.newsletter .container {
+    max-width: 800px;
+}
+
+footer {
+    padding: 70px 0 40px;
+    background-color: #2d312f;
+}
+
+footer h2 {
+    font-size: 24px;
+    line-height: 24px;
+    color: #8c9494;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+
+
+.contact-link {
+    display: flex;
+    margin: 50px auto;
+}
+
+.contact-link li a {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #8c9494;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.gallery .container {
+    max-width: 1500px;
+    position: relative;
+}
+
+.item { 
+    width: 13px;
+    height: 13px;
+    background-color: #8c9494;
+    border-radius: 50%;
+}
+
+.item:hover {
+    background-color: #5dca88;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    max-width: 30px;
+    margin: 30px auto 0;
+}
+
+.list li {
+    padding: 0 7px;
+    cursor: pointer;
+}
+
+.wrapper-newsletter {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.icon-facebook, .icon-twitter, .icon-gplus,
+.icon-pig, .icon-youtube {
+    padding: 15px;
+    background-color: #5d6461;
+    max-width: 50px;
+    border-radius: 50%;
+    margin: 0 9px;
+}
+
+
+.icon-pig {
+    display: flex;
+    padding: 19px 15px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #2d312f;
+    border-radius: 50%;
+    margin: 0 1px;
+}
+
+.other-contact {
+    display: flex;
+    margin-top: 65px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.other-contact li a {
+    padding: 0 13px;
+    color: #8c9494;
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.other-contact li:hover {
+    text-decoration: underline;
+}
+
+/*        ////////////////                   */
+
+@media (max-width: 990px) {
+    header .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .net-work {
+        padding: 15px 0;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 580px){
+    .icon-left-open {
+        bottom: 0;
+    }
+
+}
+
+@media (max-width: 570px) {
+    .left-header {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .testimonials {
+        padding: 30px 0;
+    }
+
+    .newsletter {
+        padding: 30px;
+    }
+
+    .form-description {
+        flex-direction: column;
+    }
+
+    .logo-name {
+        padding: 0 0 20px;
+    }
+
+    .logo-name h1 {
+        text-align: center;
+    }
+
+    .navigation {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .navigation li {
+        padding: 5px 20px 5px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .net-work {
+        flex-direction: column;
+    }
+
+    .net-work a {
+        text-align: center;
+    }
+
+    .net-work li {
+        padding-bottom: 7px;
+    }
+
+    .email::placeholder, .email {
+        text-align: center;
+    }
+
+    .your-email {
+        flex-wrap: wrap;
+    }
+
+    .form-btn {
+        max-width: 100%;
+        border-radius: 0 0 25px 25px;
+    }
+}
+
+@media (max-width: 850px) {
+    .iphone {
+        display: none;
+    }
+
+    .gallery {
+        padding: 30px 0 50px;
+    }
+
+    .product-feature {
+        padding: 40px 0;
+    }
+
+    .product-feature-description {
+        margin: 0 auto;
+        text-align: center;
+    } 
+
+    hr {
+        margin: 30px auto;
+    }
+
+    .product-feature .btn {
+        margin: 30px auto;
+    } 
+
+}
+
+@media (max-width: 1060px) {
+    
+    .two-phone {
+        display: none;
+    }
+
+    .product-geature-description hr {
+        margin: 20px auto 40px;
+    }
+
+    .product-geature-description {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .product-geature-description .btn {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .phones-gallery-relative {
+        position: relative;
+    }
+
+    .hand-with-phone {
+        display: none;
+    }
+
+    /* .phones-gallery li:nth-child(2),
+    .phones-gallery li:nth-child(3) {
+        display: none;
+    }
+
+    .phones-gallery li:nth-child(1) {
+        margin: 0 auto;
+    } */
+
+    .download-section {
+        padding: 80px 0;
+    }
+
+    .download-section h2, .under-head, .download-description {
+        text-align: center;
+    }
+
+    .download-description, .download-section .btn {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 370px) {
+    .newsletter h2 {
+        text-align: center;
+    }
+
+    .newsletter img {
+        display: none;
+    }
+    
+}
