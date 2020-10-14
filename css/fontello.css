@@ -28,6 +28,7 @@
 }
 
 .icon-left-open, .icon-right-open {
+  z-index: 99999;
   position: absolute;
   top: 50%;
   font-size: 50px;

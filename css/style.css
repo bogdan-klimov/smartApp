@@ -185,14 +185,6 @@ nav ul {
     margin: 0;
 }
 
-.people-list {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    left: 0;
-    transition: .5s;
-}
-
 .people-list-item {
     min-width: 610px;
 }
@@ -248,10 +240,6 @@ hr {
     position: relative;
 }
 
-.visible-window {
-    height: 690px;
-}
-
 .visible-window-new {
     height: 319px;
 }
@@ -260,9 +248,23 @@ hr {
     display: flex;
     justify-content: center;
     margin-top: 80px; 
+    left: 0;
+    transition: .5s;
+    position: relative;
+}
+
+.people-list {
+    display: flex;
+    justify-content: space-between;
     position: absolute;
     left: 0;
     transition: .5s;
+}
+
+
+.phones-gallery-item {
+    transition: .5s;
+    display: none;
 }
 
 .block-gallery {
@@ -520,6 +522,7 @@ footer h2 {
     justify-content: center;
     max-width: 30px;
     margin: 30px auto 0;
+    align-items: center;
 }
 
 .list li {
@@ -575,6 +578,12 @@ footer h2 {
 
 .other-contact li:hover {
     text-decoration: underline;
+}
+
+.active {
+    width: 16px;
+    height: 16px;
+    background-color: #5dca88;
 }
 
 /*        ////////////////                   */
@@ -665,6 +674,7 @@ footer h2 {
 }
 
 @media (max-width: 850px) {
+
     .iphone {
         display: none;
     }
